@@ -3,5 +3,4 @@
 *.suo
 *.opensdf
 ipch/
-*.vcxproj*
 [Dd]ebug/
