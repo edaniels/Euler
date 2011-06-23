@@ -215,7 +215,7 @@ long long P7 (long long target)
 			if (!(i % j))
 			{
 				isPrime = false;
-				break;a
+				break;
 			}
 		}
 
