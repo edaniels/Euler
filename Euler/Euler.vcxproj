@@ -60,7 +60,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="functions.cpp" />
     <ClCompile Include="p1.cpp" />
+    <ClCompile Include="p2.cpp" />
+    <ClCompile Include="p3.cpp" />
+    <ClCompile Include="p4.cpp" />
+    <ClCompile Include="p5.cpp" />
+    <ClCompile Include="p6.cpp" />
+    <ClCompile Include="p7.cpp" />
+    <ClCompile Include="p8.cpp" />
+    <ClCompile Include="run.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
