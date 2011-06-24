@@ -15,7 +15,7 @@ int P4 ()
 
 	for (int i = 100; i <= 999; i++)
 	
-		// Elimate doubling up on previous multiplications
+		// Eliminate doubling up on previous multiplications by making sure j = i
 		for (int j = i; j <= 999; j++)
 		{
 			tempNum = i * j;
