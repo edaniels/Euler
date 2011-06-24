@@ -18,32 +18,58 @@
     <ClCompile Include="run.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p8.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p4.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p6.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p7.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Problem 1\p1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 2\p2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 3\p3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 4\p4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 5\p5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 6\p6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 7\p7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 8\p8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Problem 1\p1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 2\p2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 3\p3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 4\p4.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 5\p5.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 6\p6.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 7\p7.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 8\p8.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

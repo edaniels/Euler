@@ -1,6 +1,6 @@
 #include <math.h>
 #include <iostream>
-#include "functions.h"
+#include "../functions.h"
 
 using namespace std;
 

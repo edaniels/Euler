@@ -13,16 +13,16 @@ int P4 ()
 
 	int tempNum;
 
-	for (int i = 100; i < 999; i++)
-		for (int j = 100; j < 999; j++)
+	for (int i = 100; i <= 999; i++)
+	
+		// Elimate doubling up on previous multiplications
+		for (int j = i; j <= 999; j++)
 		{
 			tempNum = i * j;
+
 			if ( string(itoa(tempNum,test,10)).compare(reverse(string(itoa(tempNum,test,10)))) == 0 && (tempNum) > largest)
-			{
-				
-				
+
 				largest = tempNum;
-			}
 
 		}
 
@@ -34,8 +34,6 @@ int P4 ()
 string reverse (string in)
 {
 	char temp;
-
-
 
 	for (int i = 0; i < in.length()/2; i++)
 	{

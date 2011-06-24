@@ -1,5 +1,5 @@
 #include <math.h>
-#include "functions.h"
+#include "../functions.h"
 
 long long P7 (long long target)
 {
