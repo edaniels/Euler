@@ -7,5 +7,5 @@ int P1 ()
 		if ( !(i % 3) || !(i % 5) )
 			sum += i;
 
-	return sum;
+	return asum;
 }
