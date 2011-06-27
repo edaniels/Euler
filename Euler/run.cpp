@@ -6,6 +6,7 @@
 #include "Problem 6/p6.h"
 #include "Problem 7/p7.h"
 #include "Problem 8/p8.h"
+#include "Problem 9/p9.h"
 #include <iostream>
 #include <ctime>
 
@@ -14,29 +15,6 @@ using namespace std;
 
 int main ( )
 {
-	int count = 0;
-
-	int N = 10;
-
-	for (int i = 1; i <= N; i++)
-		for (int j = 1; j <= N; j++)
-		{
-			cout << i << "*" << j << endl;
-			count++;
-		}
-
-	cout << "Count: " << count << endl;
-
-	count = 0;
-
-	for (int i = 1; i <= N; i++)
-		for (int j = i; j <= N; j++)
-		{
-			cout << i << "*" << j << endl;
-			count++;
-		}
-
-	cout << "Count: " << count << endl;
 
 	cout << fixed;
 
@@ -55,6 +33,8 @@ int main ( )
 	cout << "7: " << P7(10001) << endl;
 
 	cout << "8: " << P8() << endl;
+
+	cout << "9: " << P9(1000) << endl;
 
 	system("Pause");
 

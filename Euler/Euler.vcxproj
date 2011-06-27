@@ -61,6 +61,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="functions.cpp" />
+    <ClCompile Include="p9.cpp" />
     <ClCompile Include="Problem 1\p1.cpp" />
     <ClCompile Include="Problem 2\p2.cpp" />
     <ClCompile Include="Problem 3\p3.cpp" />
@@ -72,6 +73,7 @@
     <ClCompile Include="run.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="p9.h" />
     <ClInclude Include="Problem 1\p1.h" />
     <ClInclude Include="Problem 2\p2.h" />
     <ClInclude Include="Problem 3\p3.h" />
