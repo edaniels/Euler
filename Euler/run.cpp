@@ -9,6 +9,7 @@
 #include "Problem 9/p9.h"
 #include "Problem 10/p10.h"
 #include "Problem 11/p11.h"
+#include "Problem 12/p12.h"
 #include <iostream>
 #include <ctime>
 
@@ -17,6 +18,7 @@ using namespace std;
 
 int main ( )
 {
+	unsigned int start = clock();
 
 	cout << fixed;
 
@@ -41,6 +43,10 @@ int main ( )
 	cout << "10: " << P10(2000000) << endl;
 
 	cout << "11: " << P11() << endl;
+
+	cout << "12: " << P12(500) << endl;
+
+	cout << "Time elapsed (ms): " << clock() - start;
 
 	system("Pause");
 
