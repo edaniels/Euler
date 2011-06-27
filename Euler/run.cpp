@@ -7,6 +7,8 @@
 #include "Problem 7/p7.h"
 #include "Problem 8/p8.h"
 #include "Problem 9/p9.h"
+#include "Problem 10/p10.h"
+#include "Problem 11/p11.h"
 #include <iostream>
 #include <ctime>
 
@@ -35,6 +37,10 @@ int main ( )
 	cout << "8: " << P8() << endl;
 
 	cout << "9: " << P9(1000) << endl;
+
+	cout << "10: " << P10(2000000) << endl;
+
+	cout << "11: " << P11() << endl;
 
 	system("Pause");
 
