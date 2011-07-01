@@ -60,11 +60,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BigInt.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="p9.cpp" />
     <ClCompile Include="Problem 10\p10.cpp" />
     <ClCompile Include="Problem 11\p11.cpp" />
     <ClCompile Include="Problem 12\p12.cpp" />
+    <ClCompile Include="Problem 13\p13.cpp" />
     <ClCompile Include="Problem 1\p1.cpp" />
     <ClCompile Include="Problem 2\p2.cpp" />
     <ClCompile Include="Problem 3\p3.cpp" />
@@ -76,8 +78,9 @@
     <ClCompile Include="run.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="p9.h" />
+    <ClInclude Include="BigInt.h" />
     <ClInclude Include="Problem 12\p12.h" />
+    <ClInclude Include="Problem 13\p13.h" />
     <ClInclude Include="Problem 1\p1.h" />
     <ClInclude Include="Problem 2\p2.h" />
     <ClInclude Include="Problem 3\p3.h" />

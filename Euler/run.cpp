@@ -10,8 +10,10 @@
 #include "Problem 10/p10.h"
 #include "Problem 11/p11.h"
 #include "Problem 12/p12.h"
+#include "Problem 13/p13.h"
 #include <iostream>
 #include <ctime>
+#include "BigInt.h"
 
 using namespace std;
 
@@ -46,7 +48,9 @@ int main ( )
 
 	cout << "12: " << P12(500) << endl;
 
-	cout << "Time elapsed (ms): " << clock() - start;
+	cout << "13: " << P13() << endl;
+
+	cout << "Time elapsed (ms): " << clock() - start << endl;
 
 	system("Pause");
 

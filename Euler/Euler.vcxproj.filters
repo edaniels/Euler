@@ -57,6 +57,12 @@
     <ClCompile Include="Problem 12\p12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Problem 13\p13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BigInt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problem 1\p1.h">
@@ -83,10 +89,13 @@
     <ClInclude Include="Problem 8\p8.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="p9.h">
+    <ClInclude Include="Problem 12\p12.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Problem 12\p12.h">
+    <ClInclude Include="Problem 13\p13.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigInt.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
