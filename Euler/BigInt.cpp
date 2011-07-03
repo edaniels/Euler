@@ -261,3 +261,13 @@ int BigInt::getLength()
 {
 	return length;
 }
+
+BigInt BigInt::sumDigits()
+{
+	BigInt sum = 0;
+
+	for (int i = 0; i < this->length; i++)
+		sum += (this->number[i] - '0');
+
+	return sum;
+}

@@ -24,6 +24,7 @@ class BigInt
 		bool operator< (const BigInt &);
 		BigInt operator++(int);
 		int getLength();
+		BigInt sumDigits();
 
 	private:
 		char *number;

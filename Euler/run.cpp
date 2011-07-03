@@ -12,6 +12,7 @@
 #include "Problem 12/p12.h"
 #include "Problem 13/p13.h"
 #include "Problem 14/p14.h"
+#include "Problem 15/p15.h"
 #include <iostream>
 #include <ctime>
 #include "BigInt.h"
@@ -25,7 +26,7 @@ int main ( )
 
 	cout << fixed;
 
-	/*cout << "1: " << P1() << endl;
+	cout << "1: " << P1() << endl;
 
 	cout << "2: " << P2() << endl;
 	
@@ -49,9 +50,11 @@ int main ( )
 
 	cout << "12: " << P12(500) << endl;
 
-	cout << "13: " << P13() << endl;*/
+	cout << "13: " << P13() << endl;
 
 	cout << "14: " << P14(1000000) << endl;
+
+	cout << "15: " << P15(1000) << endl;
 
 	cout << "Time elapsed (ms): " << clock() - start << endl;
 
