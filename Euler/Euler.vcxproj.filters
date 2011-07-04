@@ -69,6 +69,12 @@
     <ClCompile Include="Problem 15\p15.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Problem 18\p18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem 67\p67.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Problem 1\p1.h">
@@ -108,6 +114,12 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Problem 15\p15.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 18\p18.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem 67\p67.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

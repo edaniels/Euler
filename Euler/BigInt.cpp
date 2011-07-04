@@ -115,11 +115,22 @@ ostream & operator<< (ostream & out, const BigInt & rightInt)
 {
 	if (rightInt.negative)
 	{
-		cout << "-";
+		out << "-";
 	}
-	cout << rightInt.number;
+	out << rightInt.number;
 	
 	return out;
+}
+
+istream & operator>> (istream & in, BigInt & rightInt)
+{
+	int temp;
+
+	in >> temp;
+
+	rightInt = BigInt(temp);
+	
+	return in;
 }
 
 BigInt BigInt::operator+ (const BigInt & right)
@@ -270,4 +281,33 @@ BigInt BigInt::sumDigits()
 		sum += (this->number[i] - '0');
 
 	return sum;
+}
+
+bool BigInt::operator> (const BigInt & right)
+{
+	bool status = false;
+
+	if (this->length > right.length)
+		status = true;
+	else if (this->length < right.length)
+		status = false;
+	else
+	{
+		for (int i=0; i < right.length; i++)
+		{
+			if (this->number[i] > right.number[i])
+			{
+				status = true;
+				break;
+			}
+			else if (this->number[i] < right.number[i])
+			{
+				status = false;
+				break;
+			}
+		}
+
+	}
+
+	return status;
 }

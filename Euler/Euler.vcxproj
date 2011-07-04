@@ -69,11 +69,13 @@
     <ClCompile Include="Problem 13\p13.cpp" />
     <ClCompile Include="Problem 14\p14.cpp" />
     <ClCompile Include="Problem 15\p15.cpp" />
+    <ClCompile Include="Problem 18\p18.cpp" />
     <ClCompile Include="Problem 1\p1.cpp" />
     <ClCompile Include="Problem 2\p2.cpp" />
     <ClCompile Include="Problem 3\p3.cpp" />
     <ClCompile Include="Problem 4\p4.cpp" />
     <ClCompile Include="Problem 5\p5.cpp" />
+    <ClCompile Include="Problem 67\p67.cpp" />
     <ClCompile Include="Problem 6\p6.cpp" />
     <ClCompile Include="Problem 7\p7.cpp" />
     <ClCompile Include="Problem 8\p8.cpp" />
@@ -85,11 +87,13 @@
     <ClInclude Include="Problem 13\p13.h" />
     <ClInclude Include="Problem 14\p14.h" />
     <ClInclude Include="Problem 15\p15.h" />
+    <ClInclude Include="Problem 18\p18.h" />
     <ClInclude Include="Problem 1\p1.h" />
     <ClInclude Include="Problem 2\p2.h" />
     <ClInclude Include="Problem 3\p3.h" />
     <ClInclude Include="Problem 4\p4.h" />
     <ClInclude Include="Problem 5\p5.h" />
+    <ClInclude Include="Problem 67\p67.h" />
     <ClInclude Include="Problem 6\p6.h" />
     <ClInclude Include="Problem 7\p7.h" />
     <ClInclude Include="Problem 8\p8.h" />

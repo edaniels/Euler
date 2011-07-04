@@ -8,6 +8,7 @@ using namespace std;
 class BigInt
 {
 	friend ostream & operator<< (ostream &, const BigInt &);
+	friend istream & operator>> (istream &, BigInt &);
 
 	public:
 		BigInt();
@@ -22,6 +23,7 @@ class BigInt
 		void operator+= (const BigInt &);
 		void operator+= (const int &);
 		bool operator< (const BigInt &);
+		bool operator> (const BigInt &);
 		BigInt operator++(int);
 		int getLength();
 		BigInt sumDigits();
